@@ -1,0 +1,9 @@
+[Unit]
+Description=switches the wallpaper
+
+[Service]
+Type=oneshot
+ExecStart=$HOME/prj/wallpaper-switcher/main.py
+
+[Install]
+WantedBy=default.target
