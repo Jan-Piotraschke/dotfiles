@@ -17,6 +17,12 @@ brew install zsh zsh-syntax-highlighting autojump fzf ripgrep git-flow-avh
 brew install neovim
 # Developer experience stuff
 brew install nvm
+# better console
+brew cask install iterm2
+# my preferred IDE
+brew cask install visual-studio-code
+# browser for developing web applications
+brew cask install google-chrome
 
 # installingbrew install helpers for zsh config
 echo "Installing Tronjes zsh helpers..."
