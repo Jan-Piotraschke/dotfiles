@@ -1,0 +1,11 @@
+aaron-bond.better-comments
+dbaeumer.vscode-eslint
+EditorConfig.EditorConfig
+esbenp.prettier-vscode
+formulahendry.code-runner
+HookyQR.beautify
+marus25.cortex-debug
+ms-python.python
+ms-vscode.cpptools
+tomoki1207.pdf
+vscode-icons-team.vscode-icons
