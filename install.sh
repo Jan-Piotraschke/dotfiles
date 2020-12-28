@@ -1,20 +1,14 @@
-# Updating packages and installing dependencies for this script
-# pacman -Syu --needed --noconfirm base-devel git stow rust go
-
 # Installing xcode in order for brew to work
 xcode-select --install
 
 # Install package manager
 echo "Installing brew..."
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null
-
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # installing all kinds of stuff
 echo "Installing packages..."
-brew install stow rust go wget python cmake
+brew install stow rust wget python cmake
 # Console experience pack
-brew install zsh zsh-syntax-highlighting autojump fzf ripgrep git-flow-avh
-# neovim neovim-plug-git python-pynvim python2-pynvim ruby-neovim nvim-yarp-git
-brew install neovim
+brew install zsh zsh-syntax-highlighting autojump fzf ripgrep git-flow-avh neovim
 # Developer experience stuff
 brew install nvm
 # better console
