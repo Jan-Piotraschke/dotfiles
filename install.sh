@@ -17,6 +17,8 @@ brew cask install iterm2
 brew cask install visual-studio-code
 # browser for developing web applications
 brew cask install google-chrome
+# password manager app
+brew install --cask keepassxc
 
 # download the required vs code extensions
 cat dev_workplace/extensions.txt | while read i; do code --install-extension $i; done
