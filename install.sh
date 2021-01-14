@@ -12,11 +12,11 @@ brew install zsh zsh-syntax-highlighting autojump fzf ripgrep git-flow-avh neovi
 # Developer experience stuff
 brew install nvm
 # better console
-brew cask install iterm2
+brew install --cask iterm2
 # my preferred IDE
-brew cask install visual-studio-code
+brew install --cask visual-studio-code
 # browser for developing web applications
-brew cask install google-chrome
+brew install --cask google-chrome
 # password manager app
 brew install --cask keepassxc
 
