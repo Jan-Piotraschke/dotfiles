@@ -9,7 +9,11 @@ echo "Installing packages..."
 brew install stow rust wget python cmake
 # Console experience pack
 brew install zsh zsh-syntax-highlighting autojump fzf ripgrep git-flow-avh neovim
+# install npm
+brew install node
 
+# install julia
+brew install --cask julia
 # install docker
 brew install --cask docker
 # browser for developing web applications
@@ -42,11 +46,14 @@ echo "Make zsh default shell..."
 chsh -s $(which zsh)
 stow zsh
 
+# install jupyter notebook
+/usr/local/bin/pip install notebook
+
 # Make nvim work
 # Installing Vim Plug
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 # Install python support for nvim
-/usr/local/bin/pip install neovim
+/usr/local/bin/pip install neovim 
 /usr/local/bin/pip install --upgrade neovim
 # Install config
 stow nvim
