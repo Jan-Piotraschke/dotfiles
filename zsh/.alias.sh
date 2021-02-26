@@ -47,6 +47,6 @@ alias py='python'
 alias weather='curl -s wttr.in/Hamburg'
 alias icat='kitty icat --align=left'
 alias ipython='ipython --no-confirm-exit'
-
-# start julia
 alias jl='exec "/Applications/Julia-1.5.app/Contents/Resources/julia/bin/julia"'
+alias vsc='open -a "Visual Studio Code"'
+alias jn='jupyter notebook'
