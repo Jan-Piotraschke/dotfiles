@@ -24,6 +24,8 @@ brew install --cask iterm2
 brew install --cask keepassxc
 # my preferred IDE
 brew install --cask visual-studio-code
+# install the latex core
+brew install --cask mactex-no-gui
 
 # download the required vs code extensions
 cat dev_workplace/extensions.txt | while read i; do code --install-extension $i; done
