@@ -28,6 +28,8 @@ brew install --cask visual-studio-code
 brew install --cask mactex-no-gui
 # install reference management software
 brew install --cask jabref
+# install Skype
+brew install --cask skype
 
 # download the required vs code extensions
 cat dev_workplace/extensions.txt | while read i; do code --install-extension $i; done
