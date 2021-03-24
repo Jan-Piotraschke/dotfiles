@@ -4,6 +4,7 @@ editorconfig.editorconfig
 esbenp.prettier-vscode
 formulahendry.code-runner
 hookyqr.beautify
+james-yu.latex-workshop
 julialang.language-julia
 marus25.cortex-debug
 ms-azuretools.vscode-docker
@@ -11,4 +12,4 @@ ms-python.python
 ms-toolsai.jupyter
 ms-vscode.cpptools
 shardulm94.trailing-spaces
-tomoki1207.pdf
+vscode-icons-team.vscode-icons
