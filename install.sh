@@ -53,14 +53,14 @@ chsh -s $(which zsh)
 stow zsh
 
 # install jupyter notebook
-/usr/local/bin/pip install notebook
+/usr/local/bin/pip3 install notebook
 
 # Make nvim work
 # Installing Vim Plug
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 # Install python support for nvim
-/usr/local/bin/pip install neovim 
-/usr/local/bin/pip install --upgrade neovim
+/usr/local/bin/pip3 install neovim 
+/usr/local/bin/pip3 install --upgrade neovim
 # Install config
 stow nvim
 # Install plugins
