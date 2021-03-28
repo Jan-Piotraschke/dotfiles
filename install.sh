@@ -31,6 +31,10 @@ brew install --cask jabref
 # install Skype
 brew install --cask skype
 
+# install some fonts
+brew tap homebrew/cask-fonts
+brew install --cask font-quicksand
+
 # download the required vs code extensions
 cat dev_workplace/extensions.txt | while read i; do code --install-extension $i; done
 
