@@ -11,6 +11,11 @@ brew install stow rust wget python cmake
 brew install zsh zsh-syntax-highlighting autojump fzf ripgrep git-flow-avh neovim
 # install npm
 brew install node
+# literate programming 
+brew tap zyedidia/literate
+brew install --HEAD literate
+# install pandoc for literate programming
+brew install pandoc
 
 # install julia
 brew install --cask julia
