@@ -61,8 +61,11 @@ echo "Make zsh default shell..."
 chsh -s $(which zsh)
 stow zsh
 
-# install jupyter notebook
+# jupyter notebook
 /usr/local/bin/pip3 install notebook
+pip3 install ipywidgets
+jupyter nbextension enable --py widgetsnbextension
+
 
 # Make nvim work
 # Installing Vim Plug
