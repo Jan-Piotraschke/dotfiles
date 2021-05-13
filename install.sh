@@ -64,6 +64,8 @@ stow zsh
 pip3 install ipywidgets
 jupyter nbextension enable --py widgetsnbextension
 
+# ARM cortex-m microcontroller using mbed os 
+pip3 install mbed-ls pyocd
 
 # Make nvim work
 # Installing Vim Plug
