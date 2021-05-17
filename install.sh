@@ -36,6 +36,13 @@ brew install --cask jabref
 # install Skype
 brew install --cask skype
 
+# for system engineering
+# NOTE: scilab requires Java 8
+brew install --cask adoptopenjdk
+brew install --cask homebrew/cask-versions/adoptopenjdk8
+brew install --cask papyrus
+brew install --cask scilab
+
 # install some fonts
 brew tap homebrew/cask-fonts
 brew install --cask font-quicksand
