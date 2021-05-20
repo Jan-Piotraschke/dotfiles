@@ -11,6 +11,11 @@ alias nspawn='sudo systemd-nspawn'
 alias mctl='machinectl'
 alias smctl='sudo machinectl'
 
+# mbed
+alias mi='mbed import'
+alias mcompile='mbed compile -m CY8CPROTO_062_4343W -t GCC_ARM'
+alias m2c='mbed compile -m CY8CPROTO_062_4343W -t GCC_ARM --flash'
+
 # pacman / yay
 alias pac='pacman'
 alias spac='sudo pacman'
