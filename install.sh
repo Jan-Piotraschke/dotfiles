@@ -37,8 +37,12 @@ brew install --cask jabref
 brew install --cask skype
 
 # for system engineering
-# NOTE: scilab requires Java 8
-brew install --cask adoptopenjdk
+# scilab requires Java 8
+# Java 8 is for papyrus
+# NOTE: remember to add the following row to papyrus.app Info.plist:
+# <string>-vm</string><string>/usr/local/Cellar/openjdk@11/11.0.10/libexec/openjdk.jdk/Contents/Home/bin/java</string>
+brew install openjdk@11
+sudo ln -sfn $(brew --prefix)/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk
 brew install --cask homebrew/cask-versions/adoptopenjdk8
 brew install --cask papyrus
 brew install --cask scilab
