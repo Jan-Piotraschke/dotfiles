@@ -80,6 +80,7 @@ jupyter nbextension enable --py widgetsnbextension
 # mbed-tools = Mbed CLI 2 (requires 'ninja')
 # only 'mbed-tools' is required. Has the toolchains 'ARM' and 'GCC_ARM' available
 #? pip3 install mbed-ls
+brew install --cask mbed-studio
 pip3 install pyocd
 pip3 install mbed-tools mbed-cli
 brew install ninja

@@ -14,7 +14,12 @@ alias smctl='sudo machinectl'
 # mbed
 alias mi='mbed import'
 alias mcompile='mbed compile -m CY8CPROTO_062_4343W -t GCC_ARM'
-alias m2c='mbed compile -m CY8CPROTO_062_4343W -t GCC_ARM --flash'
+alias m2psoc='mbed compile -m CY8CPROTO_062_4343W -t GCC_ARM --flash'
+
+# PSoC6
+# CapSense configuration gets translated into C code 
+alias capsense2ccode='/Applications/ModusToolbox/tools_2.3/capsense-configurator/capsense-configurator-cli -c mbed-os/targets/TARGET_Cypress/TARGET_PSOC6/TARGET_CY8CKIT_062_WIFI_BT/COMPONENT_BSP_DESIGN_MODUS/design.cycapsense -o `pwd` -g'
+
 
 # pacman / yay
 alias pac='pacman'
