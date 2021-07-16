@@ -16,6 +16,8 @@ brew tap zyedidia/literate
 brew install --HEAD literate
 # GitHub from the terminal
 brew install gh
+# XGBoost in Jupyter Notebook
+brew install libomp
 
 # install julia
 brew install --cask julia
