@@ -33,8 +33,6 @@ brew install --cask keepassxc
 brew install --cask visual-studio-code
 # install the LaTeX core
 brew install --cask mactex-no-gui
-# install reference management software
-brew install --cask jabref
 # install Skype
 brew install --cask skype
 
